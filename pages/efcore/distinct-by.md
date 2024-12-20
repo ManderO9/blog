@@ -33,6 +33,6 @@ var sql = blogs.GroupBy(b => b.Id).Select(g => g.First()).ToQueryString();
 
 <br>
 
-thanks for reading, hope it was useful.
+Thanks for reading, hope it was useful.
   
   

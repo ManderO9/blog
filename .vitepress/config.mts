@@ -4,11 +4,15 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "easynet",
   description: ".Net for professionals",
+  sitemap: {
+    hostname: 'https://easynet.rf.gd'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'DistinctBy', link: '/pages/efcore/distinct-by' },      
+      { text: 'DistinctBy', link: '/pages/efcore/distinct-by' },
+      { text: 'Run Before Main()', link: '/pages/csharp/run-code-before-main' },
     ],
 
     sidebar: [
@@ -16,6 +20,7 @@ export default defineConfig({
         text: 'Tips',
         items: [
           { text: 'EFCore DistinctBy', link: '/pages/efcore/distinct-by' },      
+          { text: 'Run Code Before Main()', link: '/pages/csharp/run-code-before-main' },      
         ]
       }
     ],
