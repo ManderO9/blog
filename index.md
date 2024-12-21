@@ -11,6 +11,10 @@ hero:
       text: DistinctBy
       link: /pages/efcore/distinct-by
     
+    - theme: brand
+      text: Run Code Before Main()
+      link: /pages/csharp/run-code-before-main
+    
 # features:
 #   - title: Feature B
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
