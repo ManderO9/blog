@@ -5,7 +5,7 @@ export default defineConfig({
   title: "easynet",
   description: ".Net for professionals",
   sitemap: {
-    hostname: 'https://easynet.rf.gd'
+    hostname: 'https://mandero9.github.io/blog'
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

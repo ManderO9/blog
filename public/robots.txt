@@ -1,8 +1,0 @@
-
-User-agent: *
-Allow: /
-Allow: /pages/efcore/distinct-by.html
-Allow: /pages/csharp/run-code-before-main.html
-
-Sitemap: https://easynet.rf.gd/sitemap.xml
-
