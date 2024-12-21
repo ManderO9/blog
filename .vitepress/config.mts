@@ -14,6 +14,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'DistinctBy', link: '/pages/efcore/distinct-by' },
       { text: 'Run Before Main()', link: '/pages/csharp/run-code-before-main' },
+      { text: 'Git', link: '/pages/git/set-local-user' },
     ],
 
     sidebar: [
@@ -21,7 +22,8 @@ export default defineConfig({
         text: 'Tips',
         items: [
           { text: 'EFCore DistinctBy', link: '/pages/efcore/distinct-by' },      
-          { text: 'Run Code Before Main()', link: '/pages/csharp/run-code-before-main' },      
+          { text: 'Run Code Before Main()', link: '/pages/csharp/run-code-before-main' },   
+          { text: 'Git: Set User And Email For Specific Repo', link: '/pages/git/set-local-user' },   
         ]
       }
     ],

@@ -15,6 +15,10 @@ hero:
       text: Run Code Before Main()
       link: /pages/csharp/run-code-before-main
     
+    - theme: brand
+      text: Sel Local User For Git Repo
+      link: /pages/git/set-local-user             
+
 # features:
 #   - title: Feature B
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

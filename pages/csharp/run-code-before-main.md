@@ -8,7 +8,6 @@
 You can do it by creating a static constructor in the Program class, code that is inside the constructor will be run before the Main() method.
 
 ```cs
-
 public class Program
 {
     static Program()
@@ -22,14 +21,12 @@ public class Program
         Console.WriteLine("hello world!");
     }
 }
-
 ```
 <br>
 
 when you are using top level statements (.Net 6 and later) you can create a partial Program class which will automatically work and run the code inside the constructor before the top level statements. 
 
 ```cs
-
 Console.WriteLine("hello world!");
 
 public partial class Program
@@ -39,7 +36,6 @@ public partial class Program
         Console.WriteLine("From static constructor");
     }
 }
-
 ```
 
 <br>
