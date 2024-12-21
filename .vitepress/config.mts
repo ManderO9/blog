@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "easynet",
   description: ".Net for professionals",
+  base: '/blog/',
   sitemap: {
     hostname: 'https://mandero9.github.io/blog'
   },
