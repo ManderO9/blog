@@ -6,7 +6,7 @@ export default defineConfig({
   description: ".Net for professionals",
   base: '/blog/',
   sitemap: {
-    hostname: 'https://mandero9.github.io/blog'
+    hostname: 'https://mandero9.github.io/blog/'
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
