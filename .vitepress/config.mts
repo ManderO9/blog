@@ -12,6 +12,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Web Scraping', link: '/pages/scraping/read-html-table/index.html' },
       { text: 'Git', link: '/pages/git/set-local-user' },
       { text: 'Json', link: '/pages/csharp/dynamically-read-json' },
       { text: 'Youtube', link: '/pages/youtube/download-youtube-clip' },
@@ -26,12 +27,14 @@ export default defineConfig({
           { text: 'Git: Set User And Email For Specific Repo', link: '/pages/git/set-local-user' },
           { text: 'Dynamically Deserialize Json', link: '/pages/csharp/dynamically-read-json' },
           { text: 'Download Youtube Clip', link: '/pages/youtube/download-youtube-clip' },    
+          { text: 'Scrape HTML Table To Json', link: '/pages/scraping/read-html-table/index.html' },    
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/mandero9' }
+      { icon: 'github', link: 'https://github.com/mandero9' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/hossem-chetoui' }
     ]
   }
 })
