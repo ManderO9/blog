@@ -29,6 +29,12 @@ export default defineConfig({
           { text: 'Download Youtube Clip', link: '/pages/youtube/download-youtube-clip' },    
           { text: 'Scrape HTML Table To Json', link: '/pages/scraping/read-html-table/index.html' },    
         ]
+      }, 
+      {
+        text: 'General',
+        items: [
+          { text: 'Delete Website Data', link: '/pages/broad/delete-website-data/index.html' },    
+        ]
       }
     ],
 
