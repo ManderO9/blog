@@ -20,20 +20,41 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Tips',
+        text: "Web",
+        collapsed: false,
+        items: [
+          { text: 'Scrape HTML Table To Json', link: '/pages/scraping/read-html-table/index.html' },
+        ]
+      },
+      {
+        text: 'C#',
+        collapsed: false,
         items: [
           { text: 'EFCore DistinctBy', link: '/pages/efcore/distinct-by' },
           { text: 'Run Code Before Main()', link: '/pages/csharp/run-code-before-main' },
-          { text: 'Git: Set User And Email For Specific Repo', link: '/pages/git/set-local-user' },
           { text: 'Dynamically Deserialize Json', link: '/pages/csharp/dynamically-read-json' },
-          { text: 'Download Youtube Clip', link: '/pages/youtube/download-youtube-clip' },    
-          { text: 'Scrape HTML Table To Json', link: '/pages/scraping/read-html-table/index.html' },    
         ]
-      }, 
+      },
+      {
+        text: "Git",
+        collapsed: false,
+        items: [
+          { text: 'Git: Set User And Email For Specific Repo', link: '/pages/git/set-local-user' },
+          { text: 'Git: Merge Two Branches', link: '/pages/git/merge-branches' },
+        ]
+      },
+      {
+        text: "Youtube",
+        collapsed: false,
+        items: [
+          { text: 'Download Youtube Clip', link: '/pages/youtube/download-youtube-clip' },
+        ]
+      },
       {
         text: 'General',
+        collapsed: false,
         items: [
-          { text: 'Delete Website Data', link: '/pages/broad/delete-website-data/index.html' },    
+          { text: 'Delete Website Data', link: '/pages/broad/delete-website-data/index.html' },
         ]
       }
     ],
