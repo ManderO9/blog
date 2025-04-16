@@ -24,6 +24,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Scrape HTML Table To Json', link: '/pages/scraping/read-html-table/index.html' },
+          { text: 'Your First Javascript Program', link: '/pages/js/first-js-program' },
+          { text: 'CSS Keyframe Animations', link: '/pages/css/keyframe-animations' },
         ]
       },
       {
@@ -41,6 +43,13 @@ export default defineConfig({
         items: [
           { text: 'Git: Set User And Email For Specific Repo', link: '/pages/git/set-local-user' },
           { text: 'Git: Merge Two Branches', link: '/pages/git/merge-branches' },
+        ]
+      },
+      {
+        text: "SQL",
+        collapsed: false,
+        items: [
+          { text: 'SQL: Your First Code In SQL', link: '/pages/sql/first-sql-code' },
         ]
       },
       {
