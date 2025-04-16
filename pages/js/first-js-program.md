@@ -53,6 +53,9 @@ You will see a popup displayed like the one you will get when you click this but
     Open Popup
 </button>
  
+<br>
+Thanks for reading, hope it was useful.
+
 <style>
     .popup-button {
         height: 2.8em;
