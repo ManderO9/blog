@@ -9,3 +9,10 @@ Free online temporary email inbox, it allows you to create an email address and 
 
 ## [CORS Proxy](https://corsproxy.io/)
 Free proxy that allows you to access data from different websites in your own website without being blocked by the CORS (Cross-Origin Resource Sharing) policy in the browser.
+
+
+
+
+<br>
+<br>
+Thanks for reading, hope it was useful.

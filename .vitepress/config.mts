@@ -5,6 +5,7 @@ export default defineConfig({
   title: "easynet",
   description: ".Net for professionals",
   base: '/blog/',
+  "lastUpdated": true,
   sitemap: {
     hostname: 'https://mandero9.github.io/blog/'
   },
