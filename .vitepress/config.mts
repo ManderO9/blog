@@ -12,6 +12,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Useful Sites', link: '/pages/broad/useful-sites' },
       { text: 'Web Scraping', link: '/pages/scraping/read-html-table/index.html' },
       { text: 'Git', link: '/pages/git/set-local-user' },
       { text: 'Json', link: '/pages/csharp/dynamically-read-json' },
@@ -64,6 +65,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Delete Website Data', link: '/pages/broad/delete-website-data/index.html' },
+          { text: 'Useful Sites', link: '/pages/broad/useful-sites.html' },
         ]
       }
     ],
